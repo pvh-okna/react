@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  background-color: white;
+  background-color: #d3d3d3;
   border-radius: 5px;
   width: 100px;
 `

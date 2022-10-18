@@ -9,7 +9,6 @@ const WrapperButton =styled.div`
   align-items:center ;
   padding: 5px 15px;
   margin: 10px;
-  
 `
 const InitialButton = styled.button`
   padding: 5px 10px;
@@ -40,17 +39,13 @@ export const UserButton = function ({username}){
             <WrapperButton>
                 <InitialButton>{getInitials(username)}</InitialButton>
                 <Button>{username}</Button>
-
             </WrapperButton>
-
         )
-
 }
 
 const getInitials = function (string) {
     let names = string.split(' '),
         initials = names[0].substring(0, 1).toUpperCase();
-
     if (names.length > 1) {
         initials += names[names.length - 1].substring(0, 1).toUpperCase();
     }

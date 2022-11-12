@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from "./App";
 import styled, {createGlobalStyle} from "styled-components";
+import {BrowserRouter} from "react-router-dom";
 const Global = createGlobalStyle`
 *{
   margin:0;
@@ -14,8 +15,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <Global/>
-    <App />
+      <BrowserRouter>
+          <Global/>
+          <App />
+
+      </BrowserRouter>
+
   </>
 );
 

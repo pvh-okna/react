@@ -1,16 +1,18 @@
 import React from 'react';
-import {FooterRight, FooterYear, WrapperFooter } from './style';
+import {BackCoolor, FooterRight, FooterYear, WrapperFooter } from './style';
 
 const Footer = () => {
     return (
+                    <BackCoolor>
+                        <WrapperFooter>
+                            <FooterYear>©2022 Blogfolio </FooterYear>
+                            <FooterRight> All rights reserved</FooterRight>
 
-            <WrapperFooter>
-                <FooterYear>©2022 Blogfolio </FooterYear>
-                <FooterRight> All rights reserved</FooterRight>
 
 
+                        </WrapperFooter>
+                    </BackCoolor>
 
-            </WrapperFooter>
 
     );
 };

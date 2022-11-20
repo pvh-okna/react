@@ -4,13 +4,13 @@ import {BiUser} from "react-icons/bi";
 import {Link} from "react-router-dom";
 
 const Login = () => {
-    const [login, setLogin] = useState(false);
+    const [reg, setReg] = useState(false);
     const handleState = () => {
-        setLogin(login => !login)
+        setReg(reg => !reg)
     }
     return (
         <>
-            <Link onClick={handleState} to={login ? '/' : '/login'}>
+            <Link onClick={handleState} to={reg ? '/' : '/login'}>
                 <Initial> <BiUser/> </Initial>
             </Link>
 

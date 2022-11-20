@@ -8,6 +8,9 @@ margin: 40px 0 40px 163px ;
   align-items: center;
   justify-content: space-between;
 `
+export const BackCoolor = styled.section`
+background-color: #E5E5E5;
+`
 export const FooterYear = styled.div`
   line-height: 24px;
   color: #8D8E97;

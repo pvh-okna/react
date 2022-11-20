@@ -25,11 +25,9 @@ const BigCard = () => {
         <BigCardBlock>
             <BigCardContent>
                 <BigCardDate>{PostsArray[0].date}</BigCardDate>
-
                     <BigCardTitle id={String(PostsArray[0].id)}>
                         {PostsArray[0].title}
                     </BigCardTitle>
-
                 <BigCardText>{PostsArray[0].text}</BigCardText>
                 <MiddleCardIcon>
                     <MiddleCardLikes >< FiThumbsUp/>{PostsArray[0].lesson_num}</MiddleCardLikes>
